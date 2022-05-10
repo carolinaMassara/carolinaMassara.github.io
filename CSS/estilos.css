@@ -40,18 +40,44 @@ body {
 }
 
 .form-control {
-  border: 1px solid #ffffff;
-  border-bottom: 2px solid #e5e5e5;
-  border-radius: 0;
+  color:unset;
+ border: #fff;
+ border-bottom: 1px solid #e5e5e5;
+ border-bottom-left-radius: 1px;
+ border-bottom-right-radius: 1px;
+}
+input.form-control.clearText {
+  color: #d3317a
+  
+}
+.form-control:focus-visible {
+  color: unset; 
+  background-color: #fff;
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+}
+img.cerrar-imagen {
+  height: 11px;
 }
 
 .input-group-text {
   border: 1px;
-  border-bottom: 2px solid #e5e5e5;
+  border-bottom: none;
   background-color: #fff;
   border-radius: 0;
+
+}
+.input-group #inputPassword {
+  color:#d3317a;
+
 }
 
+.mb-3 {
+  color:#d3317a;
+
+  margin-bottom: 1rem!important;
+}
 .form-check-input:checked {
   background-color: #d3317a;
   border-color: #d3317a;
